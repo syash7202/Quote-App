@@ -27,9 +27,8 @@ function tweet() {
 
 function bgcChange() {
   let wallpaper = Math.floor(Math.random() * 16 + 1);
-  console.log(wallpaper);
 
-  let bgcSrc = `url(wallpapers/${wallpaper}.jpg)`;
+  let bgcSrc = `url(wallpapers/${wallpaper}-min.jpg)`;
   bgc.style.background = bgcSrc;
   bgc.style.backgroundSize = "100vw 100vh";
 }
